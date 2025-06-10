@@ -4,7 +4,13 @@ node_modules/
 # Ignore all .log files
 *.log
 
+# Ignore environment config files
+.env
+
 # Ignore build output
 /dist
 /build
 
+# Ignore OS and editor-specific files
+.DS_Store
+*.swp
