@@ -8,6 +8,7 @@ import MainPage from "../features/restaurants/RestaurantLandingPage/MainPage";
 import DelieveryLanding from "../features/restaurants/Delivery/DeliveryLanding";
 import Checkout from "../features/cart/Checkout";
 import CartPage from "../features/cart/CartPage";
+import ZomatoCollections from "../features/restaurants/RestaurantLIst/ZomatoCollections";
 
 export default function AppRoutes() {
   return (
@@ -27,6 +28,7 @@ export default function AppRoutes() {
       {/* Restaurant Routes */}
       <Route path="/restaurant/landing" element={<MainPage />} />
       <Route path="/restaurant/delivery" element={<DelieveryLanding />} />
+      <Route path="/home" element={<ZomatoCollections />} />
 
       {/* Cart Routes */}
       <Route path="/cart/checkout" element={<Checkout />} />
