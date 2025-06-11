@@ -5,7 +5,7 @@ import {
   updateQuantity,
   removeFromCart,
 } from "../../../redux/slice/cartSlice";
-import {type MenuItem } from './menuData';
+import type { MenuItem } from '../../../data/menuData';
 import { type RootState } from "../../../redux/store";
 
 

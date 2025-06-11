@@ -1,6 +1,6 @@
 import React, { useState, lazy, Suspense, useMemo } from "react";
-import { categorizedMenu } from "./menuData";
-import { dummyReviews } from "./reviewData";
+import { categorizedMenu } from "../../../data/menuData";
+import { dummyReviews } from "../../../data/reviewData";
 import FoodLoader from "./FoodLoader"; 
 
 const ReviewCard = lazy(() => import("./ReviewCard"));
